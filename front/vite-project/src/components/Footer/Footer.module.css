@@ -1,0 +1,42 @@
+.footer {
+    background-color: rgba(142, 209, 210, 0.8);
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #fff; 
+    margin-top: auto;
+}
+
+.container {
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+}
+
+p {
+margin: 0;
+}
+
+.socialLinks {
+display: flex;
+}
+
+.socialLinks a {
+margin-left: 15px;
+color: #fff;
+text-decoration: none;
+font-size: 14px;
+transition: color 0.3s;
+}
+
+.socialLinks a:hover {
+color: #FFFF;
+}

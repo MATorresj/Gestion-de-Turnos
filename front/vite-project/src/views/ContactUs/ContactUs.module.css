@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.titleContainer {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #8ED1D2;
+    border-radius: 8px;
+}
+
+.title {
+    color: #8ED1D2;
+    margin: 0;
+}
+
+.infoSection {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border: 1px solid #8ED1D2;
+    border-radius: 8px;
+}
+
+.infoSection p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactList li {
+    margin-bottom: 10px;
+}
+
+.contactList a {
+    color: #8ED1D2;
+    text-decoration: none;
+}
+
+.contactList a:hover {
+    text-decoration: underline;
+}
+
+.formSection {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #8ED1D2;
+    border-radius: 8px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #8ED1D2;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8ED1D2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #79bcc1;
+}
+

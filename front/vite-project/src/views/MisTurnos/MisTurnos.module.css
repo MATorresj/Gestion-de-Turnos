@@ -1,0 +1,42 @@
+.misTurnosContainer {
+    padding: 0px 20px 20px 20px;
+    background-color: #ffffff;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    border: 1px solid #8ED1D2;
+    border-radius: 8px;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.turnosList {
+    display: flex;
+    flex-direction: column;
+}
+
+.toggleButton {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #8ED1D2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggleButton:hover {
+    background-color: #6fb1b4;
+}

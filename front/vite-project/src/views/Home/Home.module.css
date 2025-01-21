@@ -1,0 +1,42 @@
+.homeContainer {
+    text-align: center;
+    
+    
+}
+
+.homeContainer h2 {
+    color: #333;
+}
+
+.info{
+    background-color: #ffffff;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    border: 1px solid #8ED1D2;
+    border-radius: 8px;
+}
+
+.infoContainer {
+    text-align: left;
+    padding: 20px;
+}
+
+.infoContainer p{
+    font-size: large;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.infoTextImage{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.infoTextImage img{
+    width: 30vh;
+    height: 20vh;
+    border-radius: 10%;
+}
+
